@@ -1,128 +1,230 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HUNANIMA - Machines Agricoles Simples</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #2e7d32; /* Vert foncé */
-      color: #fdd835; /* Jaune vif */
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.2em;
-    }
-    nav {
-      background-color: #fdd835;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #2e7d32;
-    }
-    .hero {
-      background: url('https://i.pinimg.com/550x/a9/df/51/a9df5172829f8c05f5b92f97553d41ae.jpg') no-repeat center center/cover;
-      height: 350px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 4px #000;
-      font-size: 2em;
-    }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    section h2 {
-      color: #2e7d32;
-      margin-bottom: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .gallery img {
-      width: 280px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    footer {
-      background-color: #2e7d32;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    footer p {
-      margin: 5px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crestline Digital LLC | Premium Architectural Digital Systems & Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #090d16; color: #f1f5f9; font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; }
+        .font-mono-tech { font-family: 'Space Mono', monospace; }
+        
+        /* Electric Cyan & Deep Ink Slate Palette */
+        .text-cyan-electric { color: #00f0ff; }
+        .bg-cyan-electric { background-color: #00f0ff; }
+        .border-cyan-electric { border-color: #00f0ff; }
+        
+        /* Structural Matrix Blueprint Elements */
+        .blueprint-mesh {
+            background-image: linear-gradient(to bottom, rgba(0, 240, 255, 0.01) 1px, transparent 1px);
+            background-size: 100% 90px;
+        }
+        
+        /* Infinite Ultra-Long Scroll Reveal Animations */
+        .reveal { transition: all 1.3s cubic-bezier(0.16, 1, 0.3, 1); opacity: 0; transform: translateY(70px); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        
+        /* Custom Fluid Scrollbar */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #090d16; }
+        ::-webkit-scrollbar-thumb { background: #00f0ff; }
+
+        .btn-matrix-trigger {
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .btn-matrix-trigger:hover {
+            background-color: #00f0ff;
+            color: #090d16;
+            box-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+        }
+    </style>
 </head>
-<body>
+<body class="antialiased blueprint-mesh">
 
-  <header>
-    <h1>HUNANIMA</h1>
-    <p>Machines Agricoles Simples et Fiables</p>
-  </header>
+    <!-- Structural Axis Framework Lines -->
+    <div class="fixed top-0 left-16 md:left-32 w-[1px] h-full bg-slate-900/50 pointer-events-none z-0"></div>
 
-  <nav>
-    <a href="#about">À propos</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Technical Header Layout -->
+    <nav class="fixed w-full z-50 py-6 px-6 md:px-32 bg-[#090d16]/90 backdrop-blur-md border-b border-slate-900/60">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="font-extrabold text-xl md:text-2xl tracking-tighter uppercase">
+                CRESTLINE <span class="text-cyan-electric font-light font-mono-tech text-sm tracking-normal ml-1">DIGITAL</span>
+            </div>
+            <div class="hidden lg:flex items-center space-x-12 font-mono-tech text-xs tracking-widest uppercase">
+                <a href="#digital-capabilities" class="text-slate-400 hover:text-cyan-electric transition">// 01. CAPABILITIES</a>
+                <a href="#corporate-registry" class="text-slate-400 hover:text-cyan-electric transition">// 02. IDENTIFICATION</a>
+                <a href="#terminal-intake" class="text-slate-400 hover:text-cyan-electric transition">// 03. CONNECT</a>
+            </div>
+        </div>
+    </nav>
 
-  <div class="hero">
-    <p>Votre partenaire pour des machines agricoles durables</p>
-  </div>
+    <!-- Stage 1: Spatial Digital Hub Opening (Hero) -->
+    <section class="min-h-screen flex items-center justify-center relative px-6 md:px-32 z-10 pt-24">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-center w-full">
+            <div class="lg:col-span-7">
+                <div class="inline-flex items-center gap-2 px-3 py-1 bg-cyan-electric/5 border border-cyan-electric/30 mb-8">
+                    <span class="w-1.5 h-1.5 bg-cyan-electric animate-ping"></span>
+                    <span class="text-cyan-electric font-mono-tech text-[10px] tracking-widest uppercase">PIPELINE EXECUTION: BROADCASTING</span>
+                </div>
+                <h1 class="text-5xl md:text-8xl font-extrabold text-white leading-none uppercase tracking-tighter mb-8">
+                    ENGINEERING <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-electric to-indigo-400">DIGITAL REACH.</span>
+                </h1>
+                <p class="text-slate-400 text-sm md:text-base max-w-xl leading-relaxed mb-12 font-light">
+                    Crestline Digital LLC builds scalable web architectures, premium automated systems, and high-conversion software interfaces engineered to dominate contemporary market landscapes.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-5">
+                    <a href="#digital-capabilities" class="border border-cyan-electric text-white font-mono-tech text-xs tracking-widest uppercase px-10 py-5 btn-matrix-trigger text-center">Execute Infrastructure Scan</a>
+                    <a href="tel:15725685385" class="bg-slate-950 text-slate-300 font-mono-tech text-xs px-10 py-5 hover:text-white transition duration-300 text-center flex items-center justify-center gap-2 border border-slate-900">
+                        +1 (572) 568-5385
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Technical Abstract Digital System Imagery -->
+            <div class="lg:col-span-5 relative h-[45vh] lg:h-[65vh] w-full bg-slate-950 p-1 border border-slate-900">
+                <div class="w-full h-full relative overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover brightness-75 group-hover:scale-105 transition duration-700 filter saturate-75 contrast-125" alt="High Tech Digital Infrastructure Cyber Network Interface">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#090d16] via-transparent to-transparent"></div>
+                </div>
+                <div class="absolute bottom-4 right-4 font-mono-tech text-[10px] text-cyan-electric bg-black px-3 py-1">// COORD_NODE_572</div>
+            </div>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>À propos de nous</h2>
-    <p>
-      Chez <strong>HUNANIMA</strong>, nous nous spécialisons dans la fabrication et la distribution de 
-      <strong>machines agricoles simples</strong> pour faciliter le travail des agriculteurs. 
-      Nos solutions combinent <em>durabilité, efficacité et innovation</em> afin de répondre aux besoins de toutes les exploitations.
-    </p>
-  </section>
+    <!-- Stage 2: Verified Corporate Identification (Deep Scroll 1) -->
+    <section id="corporate-registry" class="py-48 px-6 md:px-32 bg-slate-950/50 border-y border-slate-900 relative">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-4 reveal">
+                <span class="text-cyan-electric font-mono-tech tracking-widest text-[11px] uppercase block mb-3">// VALIDATION DEPLOYMENT</span>
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white uppercase tracking-tighter">
+                    REGISTRY INDEX
+                </h2>
+            </div>
+            <div class="lg:col-span-8 reveal text-slate-400 text-sm md:text-base space-y-6 leading-relaxed font-light">
+                <p>
+                    In absolute accordance with the registry standards specified within **image_a7f28b.jpg**, Crestline Digital LLC operates as a certified commercial establishment in the digital development, software deployment, and strategic marketing sectors.
+                </p>
+                <p>
+                    Supervised under the key executive leadership of principal **Isabella Urena-dente**, the corporate collective deploys technical pipelines and structural media campaigns from its sovereign physical command base:
+                </p>
+                <div class="border-l-2 border-cyan-electric pl-6 py-2 font-mono-tech text-sm text-white tracking-wide max-w-xl">
+                    <p class="text-slate-600 text-xs uppercase mb-1">// PHYSICAL COORDINATES REGISTERED:</p>
+                    <p class="text-base font-bold tracking-tight text-cyan-electric font-sans">21378 Bear Creek Rd, Bend, OR, 97701-9600, United States</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="gallery">
-    <h2>Nos Machines</h2>
-    <div class="gallery">
-      <img src="http://ogden_images.s3.amazonaws.com/www.motherearthnews.com/images/2014/11/22234423/Boaz-Mini-Combine-jpg.jpg" alt="Mini moissonneuse">
-      <img src="https://krs-agro.ru/products/zagotovka_kormov/elho/19/7.jpg" alt="Machine agricole">
-      <img src="https://img.mod-network.net/files/images/6218ac69d37fb/SimpleFarmSilov1000_6222.jpg" alt="Équipement agricole simple">
-    </div>
-  </section>
+    <!-- Stage 3: Specialized Digital Capabilities (Deep Scroll 2) -->
+    <section id="digital-capabilities" class="py-48 px-6 md:px-32">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-32 text-left reveal">
+                <span class="text-cyan-electric font-mono-tech uppercase tracking-[0.3em] text-[10px] block mb-2">// CAPABILITY MATRIX ARRAYS</span>
+                <h2 class="text-4xl md:text-6xl font-extrabold text-white uppercase tracking-tighter">TECHNICAL OPERATIONS</h2>
+            </div>
 
-  <section id="contact">
-    <h2>Contactez-nous</h2>
-    <p><strong>Email :</strong> admin@tyusex.shop</p>
-    <p><strong>Téléphone :</strong> +33 7 38 50 26 36</p>
-    <p><strong>Adresse :</strong> Avenue Baratier, Montmorency, 95160, France</p>
-  </section>
+            <!-- Absolute Flat Flowing Vectors - No Contours/Boxes -->
+            <div class="grid lg:grid-cols-2 gap-24">
+                <!-- Operation 1 -->
+                <div class="reveal group">
+                    <div class="overflow-hidden mb-8 h-96 bg-slate-950 border border-slate-900">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter brightness-75 contrast-125 group-hover:filter-none transition duration-500" alt="Advanced Artificial Intelligence System Interface Development">
+                    </div>
+                    <span class="text-cyan-electric font-mono-tech text-xs block mb-2">// SYSTEM MODULE .01</span>
+                    <h3 class="text-2xl font-bold text-white uppercase mb-3">Enterprise System Architecture</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed font-light">Structuring high-load cloud solutions, responsive API environments, and fast database schemas built to process immense traffic with zero lag metrics.</p>
+                </div>
 
-  <footer>
-    <p>&copy; 2025 HUNANIMA - Tous droits réservés.</p>
-  </footer>
+                <!-- Operation 2 -->
+                <div class="reveal group lg:translate-y-24">
+                    <div class="overflow-hidden mb-8 h-96 bg-slate-950 border border-slate-900">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter brightness-75 contrast-125 group-hover:filter-none transition duration-500" alt="Digital Marketing Conversion Optimization Strategy">
+                    </div>
+                    <span class="text-cyan-electric font-mono-tech text-xs block mb-2">// SYSTEM MODULE .02</span>
+                    <h3 class="text-2xl font-bold text-white uppercase mb-3">High-Conversion Creative Engineering</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed font-light">Crafting tailor-made front-end graphics and intuitive UI/UX journeys backed by comprehensive behavioral data pipelines to maximize retention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Stage 4: Monolithic Digital Manifesto Banner (Deep Scroll 3) -->
+    <section class="py-44 relative overflow-hidden bg-slate-950 border-y border-slate-900">
+        <div class="absolute inset-0 bg-cyan-electric/5 opacity-10 pointer-events-none"></div>
+        <div class="max-w-5xl mx-auto text-center px-6 reveal">
+            <span class="text-cyan-electric font-mono-tech text-xs tracking-[0.4em] uppercase block mb-4">// CRITICAL LOGIC TERMINAL</span>
+            <h3 class="text-3xl md:text-5xl text-white font-extrabold uppercase tracking-tight leading-tight">
+                "CODE IS NOT STATIC APPARATUS. IT IS THE FLUID INFRASTRUCTURE UPON WHICH GLOBAL MARKETS SCALABLY EXPAND."
+            </h3>
+        </div>
+    </section>
+
+    <!-- Stage 5: Systematic Integration Protocol (Deep Scroll 4) -->
+    <section class="py-48 px-6 md:px-32 bg-[#060910]">
+        <div class="max-w-4xl mx-auto reveal text-center">
+            <span class="text-cyan-electric font-mono-tech text-xs tracking-widest block mb-4">// EXECUTION STAGES</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white uppercase">THE DEVELOPMENT LIFE-CYCLE</h2>
+            
+            <div class="space-y-12 text-left mt-20 max-w-2xl mx-auto">
+                <div class="border-b border-slate-900 pb-6">
+                    <h4 class="text-cyan-electric font-mono-tech text-xs mb-1">01 / DISCOVERY & AUDIT MATRIX</h4>
+                    <p class="text-slate-500 text-xs font-light">We crawl existing system architectures and competitor data patterns to trace functional bottlenecks and conversion voids.</p>
+                </div>
+                <div class="border-b border-slate-900 pb-6">
+                    <h4 class="text-white font-mono-tech text-xs mb-1">02 / CORE INFRASTRUCTURE CODE</h4>
+                    <p class="text-slate-500 text-xs font-light">Our engineering network writes clean, modular blocks with hyper-focused performance optimization for seamless data processing.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-mono-tech text-xs mb-1">03 / CONTINUOUS PIPELINE OPTIMIZATION</h4>
+                    <p class="text-slate-500 text-xs font-light">Post-launch structural tests are constantly deployed to upgrade components alongside evolving user interaction dynamics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stage 6: Central Communication Gateway Footer (Deep Scroll 5) -->
+    <footer id="terminal-intake" class="py-32 px-6 md:px-32 bg-black border-t border-cyan-electric relative z-10">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-5xl md:text-7xl font-extrabold mb-12 text-white tracking-tighter uppercase">INTAKE NODE</h2>
+                <div class="space-y-10">
+                    <div>
+                        <span class="text-slate-700 font-mono-tech text-[10px] tracking-widest block mb-1 uppercase">// ELECTRONIC SECURE MAILBOX</span>
+                        <a href="mailto:contact@crestlinedigitalllc.org" class="text-xl md:text-2xl font-bold text-cyan-electric hover:text-white transition tracking-tight font-mono-tech break-all">contact@crestlinedigitalllc.org</a>
+                    </div>
+                    <div>
+                        <span class="text-slate-700 font-mono-tech text-[10px] tracking-widest block mb-1 uppercase">// ANALOG COMMUNICATION GATEWAY</span>
+                        <a href="tel:15725685385" class="text-xl md:text-2xl font-bold text-white hover:text-cyan-electric transition tracking-tight font-mono-tech">+1 (572) 568-5385</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:text-right flex flex-col justify-end items-start lg:items-end mt-12 lg:mt-0">
+                <span class="text-slate-700 font-mono-tech text-[10px] tracking-widest block mb-2 uppercase">// COMMAND GEOLOCATION STATION</span>
+                <p class="text-xl text-slate-400 tracking-tight uppercase font-light leading-tight">
+                    21378 Bear Creek Rd Bend<br>
+                    OR, 97701-9600<br>
+                    United States
+                </p>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto mt-28 pt-8 border-t border-slate-900/60 flex flex-col md:flex-row justify-between text-[10px] text-slate-700 uppercase tracking-widest font-mono-tech">
+            <p>&copy; 2026 CRESTLINE DIGITAL LLC. ALL PRODUCTION INTEGRITY ENGAGED.</p>
+            <p>BEND COORDINATES // OREGON, USA</p>
+        </div>
+    </footer>
+
+    <!-- Intersection Observer Script for Smooth Fluid Transitions -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
